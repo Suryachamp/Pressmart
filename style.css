@@ -1,0 +1,39 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-section h1 {
+  letter-spacing: 1px;
+}
+
+.feature-section i {
+  font-size: 2rem;
+  margin-bottom: 0; 
+}
+
+.feature-box h5,
+.feature-box p {
+  margin: 0;
+}
+
+.feature-box > div {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+  }
+}
